@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
+require_relative '../lib/pregnancy_tracker_cli.rb'
 
-puts "Welcome to Baby Tracker"
