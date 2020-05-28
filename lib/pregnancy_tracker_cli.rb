@@ -1,6 +1,16 @@
-require "pregnancy_tracker_cli/version"
+#application environment 
 
-module PregnancyTrackerCli
-  class Error < StandardError; end
+require 'bundler/setup'
+Bundler.require(:default)
+
+require_relative './pregnancy_tracker_cli/cli.rb'
+require_relative './pregnancy_tracker_cli/api.rb'
+require_relative './pregnancy_tracker_cli/pregnancy_tracker.rb'
+
+
+#require "pregnancy_tracker_cli/version"
+
+#module PregnancyTrackerCli
+  #class Error < StandardError; end
   # Your code goes here...
-end
+#end
