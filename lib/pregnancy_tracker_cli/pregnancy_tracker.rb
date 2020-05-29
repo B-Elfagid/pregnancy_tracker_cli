@@ -1,7 +1,7 @@
 class PregnancyTracker
   
   attr_accessor :weight, :size, :days_left, :symptoms
-  
+  attr_reader :trimester, :weeks 
   @@all = []
   
   def initialize(weight=nil, size=nil, days_left=nil, symptoms=nil)

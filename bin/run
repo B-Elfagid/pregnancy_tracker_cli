@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 require_relative '../lib/pregnancy_tracker_cli.rb'
 
+Cli.new.run
