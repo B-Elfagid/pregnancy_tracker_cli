@@ -1,3 +1,24 @@
 class PregnancyTracker
-  puts "Welcome to Baby Tracker"
+  
+  attr_accessor :weight, :size, :days_left, :symptoms
+  
+  @@all = []
+  
+  def initialize(weight=nil, size=nil, days_left=nil, symptoms=nil)
+    
+    @weight = weight 
+    @size = size
+    @days_left = days_left
+    @symptoms = symptoms 
+    @@all << self 
+  end 
+  
+  def self.all
+    @@all
+  end 
+  
+  def 
+  
+  
+ 
 end 
